@@ -1,0 +1,22 @@
+.sidebar{
+    width: 18rem;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #202020;
+    flex: 0.15;
+    margin-top: 3.5rem;
+    position: fixed;
+}
+
+.sidebar__active{
+    display: none;
+    opacity: 0;
+}
+
+.sidebar__subtitle{
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-left: 1.7rem;
+}

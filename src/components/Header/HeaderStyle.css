@@ -1,0 +1,86 @@
+@import url("C:/Saakshith/MERN_Projects/youtube_clone/frontend/src/index.css");
+
+.header{
+    background-color: #202020;
+    color: var(--white-color);
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+
+.header__lmr{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.header__left{
+    flex: 0.3;
+}
+
+.header__middle{
+    flex: 0.3
+}
+
+.header__right{
+    flex: 0.3;
+    justify-content: flex-end;
+}
+
+.header__right--icon-container{
+    font-size: 20px;
+    padding: 5%;
+}
+
+.header__middle--searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.header__middle--searchBar--bar{
+    width: 35vw;
+    background-color: #121212;
+    border: 1px solid #303030;
+    height: 30px;
+    padding-left: 13px;
+    font-weight: 500;
+    color: var(--white-color);
+    font-size: 1rem;
+}
+
+.header__middle--searchBar--barIconContainer{
+    width: 65px;
+    height: 33px;
+    font-size: 15px;
+    color: #989898;
+    background-color: #313131;
+    border: 1px solid #303030;
+}
+
+.header__middle--voiceIcon{
+    font-size: 20px;
+    margin-left: 1.3rem;
+}
+
+.header__left--hamburgerMenu{
+    font-size: 18px;
+    margin-right: 2rem;
+    opacity: 1
+}
+
+.header__left--hamburgerMenu--link{
+    height: fit-content;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.header__left--logo{
+    height: 100%;
+}
+

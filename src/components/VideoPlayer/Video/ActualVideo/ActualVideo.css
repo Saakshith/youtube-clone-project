@@ -1,0 +1,12 @@
+.videoplayer__video__actualvideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe{
+    height: 75vh;
+    width: 67vw;
+    margin-left: 6rem;
+    padding-top: 75rem;
+}

@@ -1,0 +1,65 @@
+.videoplayer__video__comments__commentcard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    margin: 3.5rem 5.5rem;
+}
+
+.videoplayer__video__comments__commentcard__left-right-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoplayer__video__comments__commentcard__left{
+    height: 80px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.videoplayer__video__comments__commentcard__profilepic__container{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.videoplayer__video__comments__commentcard__profilepic__container > img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.videoplayer__video__comments__commentcard__name{
+    color: var(--white-color);
+    margin-right: 0.4rem;
+    font-weight: 600;
+}
+
+.videoplayer__video__comments__commentcard__time{
+    color: #AAAAAA;
+    font-size: 0.85rem;
+}
+
+.videoplayer__video__comments__commentcard__comment-container{
+    color: var(--white-color);
+}
+
+.videoplayer__video__comments__commentcard__comment-container > h4{
+    margin: 0.7rem 0 0.7rem 0;
+    font-weight: 400;
+}
+
+.videoplayer__video__comments__commentcard__buttons-container{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #AAAAAA;
+}
+
+.videoplayer__video__comments__commentcard__very-left{
+    margin-right: 10rem;
+    color: #AAAAAA;
+}
